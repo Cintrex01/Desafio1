@@ -1,0 +1,78 @@
+.containerSubscribe{
+    background-color: #322E60;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribeDescription,.subscribe{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.subscribeDescription, .subscribeDescriptionBox{
+    color: #fff;
+}
+
+.subscribeDescription p, .subscribeDescriptionBox p{
+    font-size: 16px;
+}
+
+.subscribeDescription h2, .subscribeDescriptionBox h2{
+    font-size: 33px;
+}
+
+.subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #1C140F;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    margin-bottom: 90px;
+    width: 1080px;
+    max-width: 80%;
+}
+
+.subscribeField{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subscribeField #email{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 13px;
+    padding-left: 10px;
+
+}
+
+.subscribeField button{
+    background-color: #DC7000;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.subscribeField button:hover {
+    background-color: #aa5e0d;
+}
+
+
+
