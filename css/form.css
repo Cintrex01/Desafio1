@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: column;
     width: 700px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .formBox form {
@@ -67,7 +69,7 @@ textarea {
 
 .formBox textarea {
     width: 100%;
-    height: 180px;
+    height: 220px;
     padding: 16px;
 }
 

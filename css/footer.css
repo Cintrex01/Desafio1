@@ -17,7 +17,6 @@ footer{
 .colFooter{
     flex-basis: 25%;
     padding: 10px;
-
 }
 
 .colFooter:nth-child(2),.colFooter:nth-child(3){
@@ -43,6 +42,13 @@ footer{
 .listFooter li a{
     text-decoration: none;
     color: #fff;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
 }
 
 .socialLinks .fab{
