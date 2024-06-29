@@ -1,0 +1,111 @@
+.trendingGames{
+    background-color: #3928A0;
+    width: 90%;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.trendingTitle{
+    margin-top: 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.trendingTitle button{
+    color: #fff;
+    background-color: #5041AA;
+    border-radius: 8px;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.trendingTitle button:hover{
+    background-color: #483a96;
+}
+
+.gameCards{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.gameCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.gameCardFollowers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gameCardFollowers h3{
+    white-space: pre;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.gameCardFollowers .fa-solid{
+    color: #fff;
+    font-size: 20px;
+}
+
+.gameDescription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameDescription h2{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 800px;
+}
+
+.gameDetails{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+}
+
+.gameDetails h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.gameDetails p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.gameBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}

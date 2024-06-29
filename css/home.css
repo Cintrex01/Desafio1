@@ -1,0 +1,60 @@
+body{
+    background-color: #3928A0;
+}
+
+.homeIntro{ 
+    margin-top: 80px;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width : 500px
+}
+
+.homeIntro h3{
+    color: #E87D0E;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20px;
+}
+
+.homeIntro h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.homeIntro p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.homeIntro button{
+    background-color: #FA9021;
+    color: #fff;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.homeIntro button:hover{
+    background-color: #df821e;
+}
+
+#gameEngines{
+   position: absolute;
+   bottom: 0;
+   top: 0;
+   right: 0;
+   z-index: 2;
+}
+
+#joyStick{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
