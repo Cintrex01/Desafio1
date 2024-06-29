@@ -85,6 +85,10 @@
     cursor: pointer;
 }
 
+.socialMedia .fab:hover{
+    background-color: #292828;
+}
+
 .phoneNumber .fa-solid{
     width: 40px;
     height: 40px;

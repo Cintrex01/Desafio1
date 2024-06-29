@@ -1,0 +1,18 @@
+.containerError{
+    background-color: #1C140F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerError h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+
+.containerError h3{
+    font-size: 30px;
+}

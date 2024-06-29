@@ -44,6 +44,10 @@ footer{
     color: #fff;
 }
 
+.listFooter li a:hover{
+    color: #cfcfcf;
+}
+
 .socialLinks{
     display: flex;
     justify-content: flex-end;
