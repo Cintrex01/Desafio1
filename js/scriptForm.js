@@ -18,14 +18,14 @@ form.addEventListener("submit", (event) => {
   const isMessageValid = messageValidate();
   if (isFirstNameValid && isLastNameValid && isEmailValid && isMessageValid) {
     let formData = {
-      firstName: firstName,
-      lastName: lastName,
-      email: email,
-      message: message,
+      firstName: firstName.value,
+      lastName: lastName.value,
+      email: email.value,
+      message: message.value,
     };
 
     localStorage.setItem("formData", JSON.stringify(formData));
-    window.location.href = "../pages/error.html";
+    window.location.href = "../pages/sucess.html";
   } else {
     firstNameValidate();
     lastNameValidate();
