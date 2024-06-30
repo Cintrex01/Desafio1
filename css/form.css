@@ -127,3 +127,11 @@ textarea {
     left: 0;
     z-index: 1;
 }
+
+#spanFirstName, #spanLastName, #spanEmail, #spanMessage {
+    color: #b45555;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: none;
+}

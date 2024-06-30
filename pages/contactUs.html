@@ -88,21 +88,52 @@
           <p class="subtitleForm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <form action="" method="get">
+          <form action="" method="get" id="form">
             <div class="inputGroup">
               <div class="inputItem">
                 <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName" />
+                <input
+                  type="text"
+                  id="firstName"
+                  name="firstName"
+                  oninput="firstNameValidate()"
+                />
+                <span id="spanFirstName"
+                  >First name cannot be empty or contain numbers or special
+                  characters</span
+                >
               </div>
               <div class="inputItem">
                 <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName" />
+                <input
+                  type="text"
+                  id="lastName"
+                  name="lastName"
+                  oninput="lastNameValidate()"
+                />
+                <span id="spanLastName"
+                  >Last name cannot be empty or contain numbers or special
+                  characters</span
+                >
               </div>
             </div>
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              oninput="emailValidate()"
+            />
+            <span id="spanEmail">Enter a valid email</span>
             <label for="message">Message</label>
-            <textarea id="message" name="message"></textarea>
+            <textarea
+              id="message"
+              name="message"
+              oninput="messageValidate()"
+            ></textarea>
+            <span id="spanMessage"
+              >The message must have at least 10 characters</span
+            >
             <div class="buttonContainer">
               <button type="submit">Get in touch</button>
             </div>
@@ -123,14 +154,17 @@
             <p>Subscribe to receive the latest news and updates about TDA.</p>
             <p>We promise not to spam you!</p>
           </div>
-          <div class="subscribeField">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter email address"
-            />
-            <button>Continue</button>
+          <div class="subscribeFieldCol">
+            <div class="subscribeField">
+              <input
+                type="email"
+                id="emailSubscribe"
+                name="email"
+                placeholder="Enter email address"
+              />
+              <button id="buttonSubscribe" type="click">Continue</button>
+            </div>
+            <span class="spanEmailSubscribe">Enter a valid email</span>
           </div>
         </div>
       </div>
@@ -188,5 +222,7 @@
       <hr />
       <p class="copyright">Copyright ® 2021 Lorem All rights Rcerved</p>
     </footer>
+    <script src="../js/scriptForm.js"></script>
+    <script src="../js/scriptSubscribe.js"></script>
   </body>
 </html>

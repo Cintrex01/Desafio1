@@ -40,6 +40,11 @@
     width: 1170px;
 }
 
+.subscribeFieldCol{
+    display: flex;
+    flex-direction: column;
+}
+
 .subscribeField{
     background-color: #fff;
     border-radius: 5px;
@@ -52,7 +57,7 @@
 
 }
 
-.subscribeField #email{
+.subscribeField #emailSubscribe{
     border: 0;
     outline: 0;
     width: 100%;
@@ -78,5 +83,9 @@
     background-color: #aa5e0d;
 }
 
-
-
+.spanEmailSubscribe{
+    color: #b45555;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
